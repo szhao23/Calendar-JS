@@ -42,3 +42,19 @@ body {
 .add-task-btn:hover {
   background-color: #424242;
 }
+
+.calendar-day {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff;
+  color: #c4c4c4;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+  background-color: #212121;
+}
