@@ -61,7 +61,7 @@ function addTask() {
 
   const taskDesc = document.getElementById("task-desc").value.trim();
 
-  if (taskDesc && !isNaN(taskDate.getDate())) {
+  if (taskDesc && !isNaN(taskDate.getDate() + 1)) {
     const calendarDays = document.getElementById("calendar").children;
     for (let i = 0; i < calendarDays.length; i++) {
       const day = calendarDays[i];
