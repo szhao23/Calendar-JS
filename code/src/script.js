@@ -40,7 +40,7 @@ function showAddTaskModal() {
 }
 
 function closeAddTaskModal() {
-  document.getElementById("close-task-modal").style.display = "block";
+  document.getElementById("add-task-modal").style.display = "none";
 }
 
 function deleteTask(taskElement) {
