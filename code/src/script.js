@@ -65,7 +65,7 @@ function addTask() {
     const calendarDays = document.getElementById("calendar").children;
     for (let i = 0; i < calendarDays.length; i++) {
       const day = calendarDays[i];
-      if (parseInt(day.textContent) === taskDate.getDate()) {
+      if (parseInt(day.textContent) === taskDate.getDate() + 1) {
         const taskElement = document.createElement("div");
         taskElement.className = "task";
         taskElement.textContent = taskDesc;
