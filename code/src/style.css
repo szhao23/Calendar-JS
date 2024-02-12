@@ -18,7 +18,7 @@ body {
   padding-bottom: 60px;
 }
 
-.calendar {
+.calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
